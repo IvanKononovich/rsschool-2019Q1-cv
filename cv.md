@@ -31,3 +31,7 @@ The code of these projects is stored [here](https://github.com/IvanKononovich?ta
 All the knowledge that I have, I learned myself, using such sources:
 * [htmlacademy.ru](https://htmlacademy.ru/)
 * [learn.javascript.ru](http://learn.javascript.ru/)
+
+## English level: <h2> tag
+I study English relatively recently, plus or minus *three months*, I study according to the method you can see [here](https://docs.google.com/document/d/1x3wPjgUbfkU-5a5sXZBkH3qXLAazHPw1PvPoCr8_yig/edit)
+At the moment I am evaluating my knowledge of English to `A1` level.
