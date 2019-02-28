@@ -9,3 +9,11 @@ To contact me, use my `ivan.kononovich.12@gmail.com` or my [telegram](https://t.
 * Learn English above A2 level
 * *Successfully* complete the courses provided by rolling scopes
 
+## My **skills**: <h2> tag
+* HTML5
+* CSS3
+* SASS
+* JavaScript
+* BEM
+* Git
+
