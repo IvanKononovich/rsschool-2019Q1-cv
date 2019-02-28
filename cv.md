@@ -17,3 +17,6 @@ To contact me, use my `ivan.kononovich.12@gmail.com` or my [telegram](https://t.
 * BEM
 * Git
 
+## Sample my JavaScript code: <h2> tag
+* [Link](https://github.com/IvanKononovich/fall-physics) to the repository
+* The code above implements [THIS](https://ivankononovich.github.io/fall-physics/).
