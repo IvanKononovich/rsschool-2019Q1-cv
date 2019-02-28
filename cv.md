@@ -26,3 +26,8 @@ To contact me, use my `ivan.kononovich.12@gmail.com` or my [telegram](https://t.
 * I work periodically on [freelance](https://freelansim.ru/freelancers/fogfug)
 * Most of the projects I have implemented are [here](https://freelansim.ru/freelancers/fogfug/projects)
 The code of these projects is stored [here](https://github.com/IvanKononovich?tab=repositories)
+
+## Education: <h2> tag
+All the knowledge that I have, I learned myself, using such sources:
+* [htmlacademy.ru](https://htmlacademy.ru/)
+* [learn.javascript.ru](http://learn.javascript.ru/)
