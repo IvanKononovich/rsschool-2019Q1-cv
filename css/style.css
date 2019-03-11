@@ -86,3 +86,7 @@ body, html {
     line-height: 30px;
     width: auto;
 }
+.default-text {
+    line-height: 30px;
+    padding: 25px 0;
+}
