@@ -74,6 +74,7 @@ body, html {
 }
 .list {
     margin: 0;
+    padding-bottom: 25px;
 }
 .list__item {
     line-height: 30px;
