@@ -76,8 +76,13 @@ body, html {
 }
 .list {
     margin: 0;
+    max-width: 50%;
     padding-bottom: 25px;
 }
 .list__item {
+    margin: 20px 0;
+    border-top: 1px dotted rgb(158, 157, 157);
+    border-bottom: 1px dotted rgb(158, 157, 157);
     line-height: 30px;
+    width: auto;
 }
