@@ -22,15 +22,17 @@ body, html {
 .header__nav {
     padding: 25px 0;
 }
-.nav__links {
+.link {
     position: relative;
     transition: 0.3s;
-    padding: 0 20px;
     line-height: 45px;
     text-decoration: none;
     color: rgb(5, 61, 126);
 }
-.nav__links::after {
+.nav__link {
+    padding: 0 20px;
+}
+.link::after {
     content: '';
     transition: 0.3s;
     display: block;
@@ -42,10 +44,10 @@ body, html {
     left: 50%;
     transform: translateX(-50%);
 }
-.nav__links:hover {
+.link:hover {
     color: rgb(19, 167, 105);
 }
-.nav__links:hover::after {
+.link:hover::after {
     width: 100%;
 }
 .main__feedback {
