@@ -3,9 +3,27 @@ body, html {
     padding: 0;
     font-family: 'Comfortaa', sans-serif;
 }
+.body_padding_bottom {
+    padding-bottom: 250px;
+}
+#canv {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    display: block;
+}
 .container {
     max-width: 880px;
     margin: 0 auto;
+    z-index: 5;
+    position: relative
+}
+.container_shadow {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 50px 5px rgb(158, 157, 157);
+    padding: 0 25px;
+    padding-bottom: 25px;
 }
 .header__title {
     margin: 0;

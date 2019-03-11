@@ -8,22 +8,20 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700&amp;subset=cyrillic" rel="stylesheet">
     <title>Resume</title>
 </head>
-<body>
-    <header class="header">
-        <div class="container">
+<body class="body body_padding_bottom">
+    <div class="container container_shadow">
+        <header class="header">
             <h1 class="header__title">My resume</h1>
             <nav class="nav header__nav">
-                <a href="#" class="link nav__link">My closest summary</a>
-                <a href="#" class="link nav__link">My skills</a>
-                <a href="#" class="link nav__link">Sample my JavaScript code</a>
-                <a href="#" class="link nav__link">Programming experience</a>
-                <a href="#" class="link nav__link">Education</a>
-                <a href="#" class="link nav__link">English level</a>
+                <a href="#summary" class="link nav__link">My closest summary</a>
+                <a href="#skills" class="link nav__link">My skills</a>
+                <a href="#code" class="link nav__link">Sample my JavaScript code</a>
+                <a href="#experience" class="link nav__link">Programming experience</a>
+                <a href="#education" class="link nav__link">Education</a>
+                <a href="#english-level" class="link nav__link">English level</a>
             </nav>
-        </div>
-    </header>
-    <main class="main">
-        <div class="container">
+        </header>
+        <main class="main">
             <div class="feedback main__feedback">
                 <div class="feedback__photo"></div>
                 <p class="feedback__name">
@@ -33,14 +31,14 @@
                     <a href="https://t.me/IvanKononovich" class="link">telegram</a>
                 </p>
             </div>
-            <div class="about">
-                <h2 class="title">My closest summary:</h2>
+            <div class="about main__about">
+                <h2 class="title" id="summary">My closest summary:</h2>
                 <ul class="list">
                     <li class="list__item">Learn English above A2 level</li>
                     <li class="list__item">Successfully complete the courses provided by rolling scopes</li>
                 </ul>
 
-                <h2 class="title">My skills:</h2>
+                <h2 class="title" id="skills">My skills:</h2>
                 <ul class="list">
                     <li class="list__item">HTML5</li>
                     <li class="list__item">CSS3</li>
@@ -50,13 +48,13 @@
                     <li class="list__item">Git</li>
                 </ul>
 
-                <h2 class="title">Sample my JavaScript code:</h2>
+                <h2 class="title" id="code">Sample my JavaScript code:</h2>
                 <ul class="list">
                     <li class="list__item"><a class="link" href="https://github.com/IvanKononovich/fall-physics">Link</a> to the repository</li>
                     <li class="list__item">The code above implements <a class="link" href="https://ivankononovich.github.io/fall-physics/">THIS</a></li>
                 </ul> 
 
-                <h2 class="title">Programming experience:</h2>
+                <h2 class="title" id="experience">Programming experience:</h2>
                 <ul class="list">
                     <li class="list__item">Passed online courses at <a class="link" href="https://htmlacademy.ru/">htmlacademy.ru</a></li>
                     <li class="list__item">I work periodically on <a class="link" href="https://freelansim.ru/freelancers/fogfug">freelance</a></li>
@@ -64,17 +62,22 @@
                     The code of these projects is stored  <a class="link" href="https://github.com/IvanKononovich?tab=repositories">here</a></li>
                 </ul> 
 
-                <h2 class="title">Education:</h2>
+                <h2 class="title" id="education">Education:</h2>
                 <span class="default-text">All the knowledge that I have, I learned myself, using such sources:</span>
                 <ul class="list">
                     <li class="list__item"><a class="link" href="https://htmlacademy.ru/">htmlacademy.ru</a></li>
                     <li class="list__item">I work periodically on <a class="link" href="https://learn.javascript.ru/">learn.javascript.ru</a></li>
                 </ul> 
 
-                <h2 class="title">English level:</h2>
+                <h2 class="title" id="english-level">English level:</h2>
                 <span class="default-text">I study English relatively recently, plus or minus three months, I study according to the method you can see here At the moment I am evaluating my knowledge of English to A1 level.</span>
             </div>
-        </div>
-    </main>
+        </main>
+    </div>    
+    <canvas id="canv">
+        Your browser not support canvas
+    </canvas>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
