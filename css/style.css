@@ -56,13 +56,25 @@ body, html {
     margin: 0 auto;
     height: 500px;
     width: 98%;
-    background: url('img/photo.jpg') no-repeat 50% 50%;
+    background: url('../img/photo.jpg') no-repeat 50% 50%;
     background-size: cover;
     box-shadow: 0 0 40px 5px rgb(158, 157, 157);
 }
 .feedback__name {
+    margin: 0;
     padding: 25px 0;
     font-size: 19px;
     letter-spacing: 2px;
     line-height: 40px;
+}
+.title {
+    margin: 0;
+    padding: 25px 0;
+    border-top: 1px solid rgb(158, 157, 157);
+}
+.list {
+    margin: 0;
+}
+.list__item {
+    line-height: 30px;
 }
