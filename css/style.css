@@ -1,0 +1,110 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', sans-serif;
+}
+.body_padding_bottom {
+    padding-bottom: 250px;
+}
+#canv {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    display: block;
+}
+.container {
+    max-width: 880px;
+    margin: 0 auto;
+    z-index: 5;
+    position: relative
+}
+.container_shadow {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 50px 5px rgb(158, 157, 157);
+    padding: 0 25px;
+    padding-bottom: 25px;
+}
+.header__title {
+    margin: 0;
+    padding: 25px 0;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(158, 157, 157);
+    border-top: 1px solid rgb(158, 157, 157);
+}
+.header__nav {
+    padding: 25px 0;
+}
+.link {
+    position: relative;
+    transition: 0.3s;
+    line-height: 45px;
+    text-decoration: none;
+    color: rgb(5, 61, 126);
+}
+.nav__link {
+    padding: 0 20px;
+}
+.link::after {
+    content: '';
+    transition: 0.3s;
+    display: block;
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: rgb(19, 167, 105);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.link:hover {
+    color: rgb(19, 167, 105);
+}
+.link:hover::after {
+    width: 100%;
+}
+.main__feedback {
+    padding: 25px 0;
+    padding-top: 50px;
+}
+.feedback__photo {
+    margin: 0 auto;
+    height: 500px;
+    width: 98%;
+    background: url('../img/photo.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    box-shadow: 0 0 40px 5px rgb(158, 157, 157);
+}
+.feedback__name {
+    margin: 0;
+    padding: 25px 0;
+    font-size: 19px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.title {
+    margin: 0;
+    padding: 25px 0;
+    border-top: 1px solid rgb(158, 157, 157);
+}
+.list {
+    margin: 0;
+    max-width: 50%;
+    padding-bottom: 25px;
+}
+.list__item {
+    margin: 20px 0;
+    border-top: 1px dotted rgb(158, 157, 157);
+    border-bottom: 1px dotted rgb(158, 157, 157);
+    line-height: 30px;
+    width: auto;
+}
+.default-text {
+    line-height: 30px;
+    padding: 25px 0;
+}
